@@ -19,5 +19,11 @@
   <ItemGroup>
     <ProjectReference Include="..\ETicaretAPI.Domain\ETicaretAPI.Domain.csproj" />
   </ItemGroup>
+	
+  <ItemGroup>
+    <Folder Include="Repositories\Customer\" />
+    <Folder Include="Repositories\Product\" />
+    <Folder Include="Repositories\Order\" />
+  </ItemGroup>
 
 </Project>
